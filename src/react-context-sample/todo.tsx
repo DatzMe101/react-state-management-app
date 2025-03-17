@@ -21,7 +21,7 @@ export const Todos = () => {
     >
       <Row justify="space-between">
         <Col>
-          <h2>Todo List</h2>
+          <h2>Todo List with React Context</h2>
         </Col>
         <Col>
           <TodoCheckAll />
