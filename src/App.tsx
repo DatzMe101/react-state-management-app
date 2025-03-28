@@ -4,6 +4,7 @@ import { TodoProvider } from "./react-context-sample/todo-provider";
 import { Todos } from "./react-context-sample/todo";
 import { TodoCheckedProvider } from "./react-context-sample/todo-check-provider";
 import { ZustandTodos } from "./react-zustand-sample/todo";
+import { TanstackStoreTodos } from "./react-tanstack-store-sample/todo";
 
 const { Header, Content, Footer } = Layout;
 
@@ -30,7 +31,9 @@ const App: React.FC = () => {
           <Col span={8}>
             <ZustandTodos />
           </Col>
-          <Col span={8}></Col>
+          <Col span={8}>
+            <TanstackStoreTodos />
+          </Col>
         </Row>
       </Content>
       <Footer style={{ textAlign: "center" }}>
